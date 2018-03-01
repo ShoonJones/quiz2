@@ -1,3 +1,7 @@
+///@file collegemain.cc
+///@brief collegemain.cc is compiled and ran alongside 'course.cc' and 'college.cc'. It offers the user 6 different options all related to the coursework and grades.
+///@author The author of the documentation is Sean Jones.
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.

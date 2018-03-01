@@ -1,3 +1,7 @@
+///@file course.cc
+///@brief course.cc contains all the implementation for the functions in the class 'course' which is located in the 'course.h' file.
+///@author The author of the documentation is Sean Jones.
+
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.

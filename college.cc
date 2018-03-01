@@ -1,3 +1,7 @@
+///@file college.cc
+///@brief college.cc contains all the implementation for the functions in the class 'College' which is located in the 'college.h' file.
+///@author The author of the documentation is Sean Jones.
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -68,7 +72,9 @@ College& College::operator =(const College& other){
 	}
 	return * this;
 }
-
+///@param There is one parameter for this function which is of type class 'course'. 'course' contains one double for hours and two strings for course number and grade. 
+///@brief This functions adds a course to the front of a linked list, creating a new node if the head doesn't exist or pushing the node existing at head back one if it does.
+///@return This file does not return.
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -107,6 +113,9 @@ void College::add(course& c){
 	}
 }
 
+///@param This functions takes in one string.
+///@brief This function removes the course that the user entered as a parameter from the linked list if it exists, otherwise it does nothing.
+///@return This function does not return.
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -129,6 +138,9 @@ void College::remove(std::string coursename){
 }
 }
 
+///@param This functons takes in an ostream used for output.
+///@brief This function outputs all the data of the courses in the linked list to the ostream that the user entered as a parameter.
+///@return This function does not return. 
 void College::display(std::ostream& outs){
 	node * ptr;
 	ptr = head;
